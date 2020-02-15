@@ -1,0 +1,578 @@
+html {
+  background-image : linear-gradient(to right bottom,rgba(126, 213, 111,0.8),rgba(40, 180, 133,0.8));
+}
+body {
+  background-image : linear-gradient(to right bottom,rgba(126, 213, 111,0.8),rgba(40, 180, 133,0.8));
+}
+.enter-name input[type=name] {
+    background-color: #F2F919;
+    color: black;
+      border-radius: 10px;
+        box-sizing: border-box;
+        border-color: black;
+        padding: 5px;
+        position: fixed;
+        left: 10px;
+        bottom: 5px;
+        height: 50px;
+        width: 70%;
+        text-align: center;
+        font-size: 18px;
+        display: inline-block;
+  }
+  
+  .enter-name .btnn {
+    border-radius: 10px;
+        font-size: 18px;
+        padding: 4px;
+        position: fixed;
+        right: 2px;
+        bottom: 5px;
+        height: 50px;
+        width: 23%;
+        display: inline-block;
+        color: black;
+        background-color: #10E43A;
+        border-color: black;
+        letter-spacing: .5px;
+        transition: .2s ease-out;
+        cursor: pointer;
+        line-height: 36px;
+        outline: 0;
+        text-transform: uppercase;
+        vertical-align: middle;
+        text-decoration: none;
+        animation-duration: 4s !important;
+  }
+  
+  .enter-name input[type=name]::-webkit-input-placeholder { 
+    color: black;
+      font-size: 18px;  
+  }
+  
+  .enter-name input[type=name]::-moz-placeholder { 
+    color: #eee;
+      font-size: 18px;
+  }
+  
+  .enter-name input[type=name]:focus::-webkit-input-placeholder {
+      color: #c0392b;
+  }
+  
+  .enter-name input[type=name]:focus::-moz-placeholder { 
+    color: #c0392b;
+      font-size: 18px;
+  }
+  .webdesign {
+          background: #fff;
+          min-height: 200px;
+          margin: 0 auto;
+          text-align: center;
+          padding: 15px;
+          color: #999;
+          padding-bottom: 120px;
+          box-shadow: 0 0 10px 1px rgba(0,0,0,.14), 0 1px 14px 2px rgba(0,0,0,.12), 0 0 5px -3px rgba(0,0,0,.3);
+          background-size: 100%;
+          }
+  .heading {
+          margin-top: 30%;
+          color: crimson;
+          }
+  div.move_to_right {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 20px;
+  }
+  
+  .move_to_right {
+    position: absolute;
+    left: 200px;
+  }
+  
+  #move_to_right {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    -webkit-animation-name: move_to_right;
+    -webkit-animation-duration: 10s;
+    animation-name: move_to_right;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes move_to_right {
+    0% {
+      opacity: 0.5;
+      transform: translate(-200px, 150px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(170px, 0px);
+    }
+  }
+  
+  div.move_to_left {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 200px;
+  }
+  
+  .move_to_left {
+    position: absolute;
+    right: 200px;
+  }
+  
+  #move_to_left {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    -webkit-animation-name: move_to_left;
+    -webkit-animation-duration: 10s;
+    animation-name: move_to_left;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes move_to_left {
+    0% {
+      opacity: 0.5;
+      transform: translate(200px, 150px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-170px, 0px);
+    }
+  }    
+  
+  .GodMessage {
+          color: #fff;
+          font-size: 20px;
+          font-weight: bold;
+          margin-top: 20px;
+          text-shadow: 0px 0px 10px #afafaf;
+        }.GodMessage p{
+          margin: 0.3em 0;
+        }@keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1); color:#FF9933;}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03); color: #fff;}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97);}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}
+  .m1{position:fixed;left:2%; width:auto;height:100%;top:1%;color:#000;}
+  .m2{position:fixed;right:2%; width:auto;height:100%;top:1%;color:#000;}
+  /* DEMO-SPECIFIC STYLES */
+          /* typing effect start */
+  .css-typing p {
+    margin-left: -20px;
+    color: black;
+    text-align: center;
+    border-right: .15em solid orange;
+    font-family: "monospace";
+    font-size: 2em;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .css-typing p:nth-child(1) {
+    width: 400px;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 400px;
+      opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(3) {
+    width: 400;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end), blink .2s step-end infinite alternate;
+    animation: type3 2s steps(40, end), blink .2s step-end infinite alternate;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(4) {
+    width: 400px;
+      opacity: 0;
+    -webkit-animation: type4 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .css-typing p:nth-child(5) {
+    width: 400px;
+      opacity: 0;
+    -webkit-animation: type5 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+          
+          
+  .css-typing p:nth-child(6) {
+    width: 400px;
+    opacity: 0;
+    -webkit-animation: type6 2s steps(40, end);
+    animation: type4 2s steps(40, end);
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type4 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type4 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @keyframes type5 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type5 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+          
+          
+  @keyframes type6 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type6 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+                  /* typing effect end */
+  .footerbtn {
+   
+    display: block;
+    line-height: 15px;
+    position: fixed;
+    right: -10px;
+    bottom:70px;
+    height:55px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+    background:#34af23;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+   margin-left:10px;
+              margin-right:30px;
+              box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .3);
+              animation: footer infinite linear 1s;
+              -webkit-transform: translate3d(30%,0,0);
+              transform: translate3d(30%,0,0);
+              position: fixed;
+             
+  }
+  #canvas {
+    max-width: 1920px !important;
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: auto !important;
+    left: 0;
+    right: 0;
+  }
+  
+  @keyframes footer {
+              from {
+                  -webkit-transform: rotateZ(0)
+              }
+              25% {
+                  -webkit-transform: rotateZ(1.5deg)
+              }
+              50% {
+                  -webkit-transform: rotateZ(0deg)
+              }
+              75% {
+                  -webkit-transform: rotateZ(-1.5deg)
+              }
+              to {
+                  -webkit-transform: rotateZ(0)
+              }}
+        *{
+          margin:0;
+          padding:0;
+        }
+        body {
+          text-align: center;
+          
+        }
+        img{
+        border: none;
+      }
+  .leftcurtain{
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        z-index: 2;
+      }
+       .rightcurtain{
+        width: 100%;
+        height: 100%;
+        right: 0px;
+        top: 0px;
+        position: absolute;
+        z-index: 3;
+      }
+      .rightcurtain img, .leftcurtain img{
+        width: 100%;
+        height: 100%;
+      }
+      .logo{
+        margin: 0px auto;
+        margin-top: 150px;
+      }
+      .rope{
+        position: absolute;
+        top: 5px;
+        left: 35%;
+        z-index: 4;
+      } 
+  .centered {
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  a.rope
+  {
+      text-decoration:none;
+  }
+  .enter-name input[type=name] {
+      background-color: #F2F919;
+      color: black;
+         border-radius: 10px;
+          box-sizing: border-box;
+          border-color: black;
+          padding: 5px;
+          position: fixed;
+          left: 10px;
+          bottom: 5px;
+          height: 50px;
+          width: 70%;
+          text-align: center;
+          font-size: 22px;
+          display: inline-block;
+  }
+  
+  .enter-name .btn {
+      border-radius: 10px;
+          font-size: 21px;
+          padding: 4px;
+          position: fixed;
+          right: 2px;
+          bottom: 5px;
+          height: 50px;
+          width: 23%;
+          display: inline-block;
+          color: black;
+          background-color: #10E43A;
+          border-color: black;
+          letter-spacing: .5px;
+          transition: .2s ease-out;
+          cursor: pointer;
+          line-height: 36px;
+          outline: 0;
+          text-transform: uppercase;
+          vertical-align: middle;
+          text-decoration: none;
+          animation-duration: 4s !important;
+  }
+  
+  .enter-name input[type=name]::-webkit-input-placeholder { 
+      color: black;
+        font-size: 18px;	
+  }
+  
+  .enter-name input[type=name]::-moz-placeholder { 
+      color: #eee;
+        font-size: 18px;
+  }
+  
+  .enter-name input[type=name]:focus::-webkit-input-placeholder {
+      color: #c0392b;
+  }
